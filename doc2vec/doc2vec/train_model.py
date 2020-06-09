@@ -19,6 +19,8 @@ pretrained_emb = "toy_data/pretrained_word_embeddings.txt" #None if use without 
 #input corpus
 train_corpus = "toy_data/train_docs.txt"
 
+
+
 #output model
 saved_path = "toy_data/model.bin"
 
@@ -31,3 +33,8 @@ model = g.Doc2Vec(docs, size=vector_size, window=window_size, min_count=min_coun
 
 #save model
 model.save(saved_path)
+
+
+
+
+
